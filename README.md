@@ -1,4 +1,4 @@
-Hospitality Revenue Analysis – Power BI
+**Hospitality Revenue Analysis – Power BI**
 📌 Project Overview
 
 This project presents a comprehensive Hospitality Revenue Analysis built using Power BI. The analysis focuses on evaluating hotel performance across key revenue and occupancy metrics to support data-driven decision-making.
