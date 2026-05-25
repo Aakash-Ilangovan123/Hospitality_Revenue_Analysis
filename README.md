@@ -1,90 +1,132 @@
-**Hospitality Revenue Analysis – Power BI**
-📌 Project Overview
+# OYO Hospitality Analysis Dashboard
 
-This project presents a comprehensive Hospitality Revenue Analysis built using Power BI. The analysis focuses on evaluating hotel performance across key revenue and occupancy metrics to support data-driven decision-making.
+## Overview
+This project presents an interactive **OYO Hospitality Performance Dashboard** designed to analyze key hospitality business metrics such as revenue, occupancy, ADR, RevPAR, realization percentage, cancellation percentage, and customer ratings.
 
-The dataset was obtained from an organizational source and transformed using Power Query (ETL). A structured data model was created using fact and dimension tables to enable efficient analysis and reporting.
+The dashboard provides a clear visual representation of hotel performance trends, booking platform efficiency, and property-wise insights to support business decision-making.
 
-🎯 Objective
+---
 
-To analyze hotel performance by tracking revenue, occupancy, and operational efficiency using industry-standard hospitality metrics, and to provide actionable insights for revenue optimization and capacity planning.
+# Dashboard Preview
 
-🧭 Business Domain
+![OYO Hospitality Dashboard](Screenshots.png)
 
-Hospitality & Hotel Management
+---
 
-🛠️ Tools & Technologies
+# Key Business Metrics
 
-Power BI
+- **Revenue** – Overall generated business revenue
+- **RevPAR** – Revenue Per Available Room
+- **DSRN** – Daily Sellable Room Nights
+- **ADR** – Average Daily Rate
+- **Occupancy %** – Percentage of occupied rooms
+- **Realization %** – Successful booking realization rate
+- **Cancellation %** – Booking cancellation analysis
+- **Average Rating** – Customer satisfaction tracking
 
-Power Query (ETL)
+---
 
-DAX
+# Dashboard Features
 
-Data Modeling (Star Schema)
+## KPI Cards
+Displays major business indicators:
+- Revenue
+- RevPAR
+- Occupancy %
+- ADR
+- Realization %
+- DSRN
 
-🗂️ Data Model
+## Trend Analysis
+Visualizes:
+- Revenue trends
+- Occupancy trends
+- ADR movement
+- Weekly performance comparisons
 
-The project follows a star schema design:
+## Category Analysis
+Analyzes revenue contribution across:
+- Business category
+- Luxury category
 
-Fact Tables: Booking, Revenue, Stay Details
+## Booking Platform Insights
+Tracks:
+- Realization %
+- ADR by booking platforms
 
-Dimension Tables: Date, Hotel, Room Type, City, Customer Segment
+## Property-Level Analysis
+Detailed table including:
+- Property ID
+- Property Name
+- City
+- Revenue
+- RevPAR
+- Occupancy %
+- ADR
+- Ratings
+- Cancellation %
 
-Relationships were established between fact and dimension tables to ensure accurate aggregations and performance.
+---
 
-📊 Key Metrics (Hospitality KPIs)
+# Filters Included
 
-Revenue Metrics
+The dashboard supports dynamic filtering by:
+- City
+- Room Type
+- Month
+- Week
 
-ADR (Average Daily Rate) – Average revenue earned per occupied room
+---
 
-RevPAR (Revenue per Available Room) – Overall revenue performance indicator
+# Tools & Technologies Used
 
-Realization % – Actual revenue vs potential revenue
+| Tool | Purpose |
+|------|----------|
+| Power BI | Dashboard Development |
+| Excel / CSV | Data Source |
+| DAX | KPI Calculations |
+| Power Query | Data Transformation |
+| Data Modeling | Relationship Management |
 
-Occupancy & Capacity
+---
 
-Occupancy % – Room utilization rate
+# Business Insights Generated
 
-DSRN – Daily Sellable Room Nights
+- Identified high-performing properties
+- Compared weekday vs weekend occupancy
+- Evaluated booking platform effectiveness
+- Tracked customer satisfaction ratings
+- Monitored cancellation trends
+- Improved hospitality revenue visibility
 
-DBRN – Daily Booked Room Nights
+---
 
-DURN – Daily Utilized Room Nights
+# Project Objective
 
-Operational Insights
+The main objective of this project is to:
+- Analyze hospitality business performance
+- Provide actionable insights
+- Improve strategic decision-making
+- Monitor operational KPIs efficiently
 
-Booking trends
+---
 
-Revenue trends by city/property
+# Author
 
-Room category performance
+**AK**  
+Data Analytics Enthusiast | Power BI | SQL | Python
 
-Seasonal demand patterns
+---
 
-⚙️ Data Preparation (ETL)
+# Future Enhancements
 
-Cleaned and transformed raw data using Power Query
+- Predictive occupancy forecasting
+- AI-based revenue prediction
+- Real-time dashboard integration
+- Automated reporting workflows
 
-Handled missing and inconsistent values
+---
 
-Created calculated columns and measures using DAX
+# License
 
-Built relationships between fact and dimension tables
-
-Optimized the data model for performance
-
-📈 Dashboard Features
-
-Revenue Performance Overview
-
-Occupancy Analysis
-
-ADR & RevPAR Trends
-
-City-wise and Property-wise Performance
-
-Booking & Cancellation Insights
-
-Capacity Utilization Analysis
+This project is for educational and portfolio purposes.
