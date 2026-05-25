@@ -10,7 +10,9 @@ The dashboard provides a clear visual representation of hotel performance trends
 # Dashboard Preview
 
 ![OYO Hospitality Dashboard](Screenshots.png)
-![OYO Hospitality Dashboard](Screenshot 1.png)
+![Tool Tip](tooltip.png)
+![Table View](table.png)
+![Data Modelling](DAX.png)
 
 ---
 
